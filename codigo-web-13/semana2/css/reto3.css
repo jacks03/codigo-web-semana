@@ -41,6 +41,7 @@
   
   .card-profile img {
     width: 35px;
+    cursor: pointer;
   }
   
   .card-profile span {
@@ -155,4 +156,7 @@
   .card-profile :hover {
       opacity: 0.5;
       color: hsl(238, 95%, 75%);
+  }
+  span {
+      cursor: pointer;
   }
