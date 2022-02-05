@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
 }
 
 .nav div {
@@ -20,10 +20,10 @@ body {
 }
 
 .button-free {
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-color: transparent;
     border: 1px solid hsl(321, 100%, 78%);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 8px;
     padding-right: 20px;
     padding-left: 20px;
@@ -126,7 +126,7 @@ body {
   }
   
   .text-sections {
-    width: 50%;
+    width: 60%;
     text-align: left;
   }
 
@@ -142,7 +142,7 @@ body {
       text-align: center;
   }
   .background-top-dark {
-      background: url(../../imagenes/reto2/bg-footer-top-desktop.svg);
+      background: url("../../imagenes/reto2/bg-footer-top-desktop.svg");
       background-repeat: no-repeat;
       background-size: cover;
       height: 25vh; 
@@ -153,11 +153,10 @@ body {
         display: flex;
         height: 60vh;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .footer div {
-        width: 40%;
         padding: 30px;
     }
 
@@ -194,4 +193,102 @@ body {
         padding-left: 30px;
         padding-right: 30px;
         font-weight: 550;
-    }
+    } 
+    /* style for rsponsive desing*/
+
+    @media only screen and (max-width: 480px) {
+        .nav div {
+            padding: 5px;
+            padding-right: 0;
+            padding-left: 0;
+        
+        }
+
+        .img-logo {
+            padding-left: 15px;
+        }
+        
+        .button-free {
+            margin-left: 15px;
+        }
+        
+        .section-one {
+            height:65vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .title {
+          font-size: 2em;
+          width: 90%;
+          margin: auto;
+        }
+      
+        .text-normal {
+          width: 80%;
+        }
+      
+        .img-mockup {
+          width: 400px;
+        }
+      
+        .section-three {
+          flex-direction: column;
+        }
+      
+        .section-four {
+          flex-direction: column-reverse;
+          height: 100vh;
+          justify-content: center;
+        }
+      
+        .section-five {
+          flex-direction: column;
+          height: 100vh;
+          justify-content: center;
+        }
+      
+        .img-desktop {
+          width: 300px;
+        }
+      
+        .title-sections {
+          width: 100%;
+          font-size: 2em;
+        }
+      
+        .text-sections {
+          width: 100%;
+        }
+        .background-top {
+            background: url("../../imagenes/reto2/bg-section-top-mobile-1.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom;
+        }
+
+        .background-bottom {
+            background: url("../../imagenes/reto2/bg-section-bottom-mobile-1.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            /*background-position: bottom;*/
+        }
+
+        .background-top-dark {
+            background: url("../../imagenes/reto2/bg-footer-top-mobile.svg") ;
+            background-repeat: no-repeat;
+            background-size: contain;
+            /*background-position: bottom;*/
+        }
+
+        .footer {
+            flex-direction: column-reverse;
+            height: 80vh;
+        }
+
+        .text-footer{
+            width: 90%;
+        }
+      }
+      /*verificar reto */
