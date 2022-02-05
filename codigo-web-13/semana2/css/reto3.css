@@ -7,6 +7,7 @@
   body {
     font-family: "Rubik", sans-serif;
     background-color: hsl(223, 19%, 93%);
+    background-color: hsl(238, 32%, 34%);
   }
   
   .container {
@@ -22,7 +23,7 @@
   
   .card {
     border-radius: 8px;
-    background-color: #fff;
+    background-color: hsl(236, 50%, 94%);
     padding: 20px;
     display: flex;
     margin-bottom: 20px;
@@ -52,7 +53,7 @@
     color: hsl(238, 40%, 52%);
     padding-left: 10px;
     padding-right: 10px;
-    background-color: hsl(223, 19%, 93%);
+    background-color: hsl(236, 50%, 94%);
     border-radius: 8px;
     display: flex;
     align-items: center;
