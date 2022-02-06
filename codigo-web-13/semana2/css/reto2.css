@@ -292,3 +292,7 @@ body {
         }
       }
       /*verificar reto */
+      .button-pink:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
