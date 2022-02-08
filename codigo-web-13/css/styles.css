@@ -96,6 +96,19 @@ body {
   object-fit: cover;
   border-radius: 8px;
 }
+.card div .img4 {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card div .img5 {
+  width: 360px;
+  height: 389px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 .text-works {
   font-size: 1em;
